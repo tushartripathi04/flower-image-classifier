@@ -1,0 +1,27 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Dataset files - do not upload the full image dataset
+data/raw/flower_photos/
+*.tgz
+
+# Local secrets
+.env
+.env.*
+
+# Allow an example environment file, if needed
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db

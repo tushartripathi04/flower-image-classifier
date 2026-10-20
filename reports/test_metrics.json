@@ -1,0 +1,95 @@
+{
+    "test_accuracy": 0.9183303085299456,
+    "macro_precision": 0.9187738730965652,
+    "macro_recall": 0.9173684210526316,
+    "macro_f1": 0.9177200545731713,
+    "classification_report": {
+        "daisy": {
+            "precision": 0.9368421052631579,
+            "recall": 0.9368421052631579,
+            "f1-score": 0.9368421052631579,
+            "support": 95.0
+        },
+        "dandelion": {
+            "precision": 0.9473684210526315,
+            "recall": 0.9333333333333333,
+            "f1-score": 0.9402985074626866,
+            "support": 135.0
+        },
+        "roses": {
+            "precision": 0.9333333333333333,
+            "recall": 0.875,
+            "f1-score": 0.9032258064516129,
+            "support": 96.0
+        },
+        "sunflowers": {
+            "precision": 0.8828828828828829,
+            "recall": 0.9333333333333333,
+            "f1-score": 0.9074074074074074,
+            "support": 105.0
+        },
+        "tulips": {
+            "precision": 0.8934426229508197,
+            "recall": 0.9083333333333333,
+            "f1-score": 0.9008264462809917,
+            "support": 120.0
+        },
+        "accuracy": 0.9183303085299456,
+        "macro avg": {
+            "precision": 0.9187738730965652,
+            "recall": 0.9173684210526316,
+            "f1-score": 0.9177200545731713,
+            "support": 551.0
+        },
+        "weighted avg": {
+            "precision": 0.9190754161504651,
+            "recall": 0.9183303085299456,
+            "f1-score": 0.9183791783272492,
+            "support": 551.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            89,
+            3,
+            2,
+            0,
+            1
+        ],
+        [
+            5,
+            126,
+            0,
+            4,
+            0
+        ],
+        [
+            0,
+            1,
+            84,
+            3,
+            8
+        ],
+        [
+            1,
+            2,
+            0,
+            98,
+            4
+        ],
+        [
+            0,
+            1,
+            4,
+            6,
+            109
+        ]
+    ],
+    "class_names": [
+        "daisy",
+        "dandelion",
+        "roses",
+        "sunflowers",
+        "tulips"
+    ]
+}
