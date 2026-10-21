@@ -21,13 +21,12 @@ CLASS_NAMES = [
 def create_model(
     num_classes: int = NUM_CLASSES,
     freeze_features: bool = True,
+    weights: EfficientNet_B0_Weights | None = EfficientNet_B0_Weights.DEFAULT,
 ) -> nn.Module:
     """
     Load pretrained EfficientNet-B0 and replace its
     classification head for our flower classes.
     """
-
-    weights = EfficientNet_B0_Weights.DEFAULT
 
     model = efficientnet_b0(weights=weights)
 
